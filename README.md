@@ -7,3 +7,6 @@ It contains a command line interface that prompts the user on how many kills the
 It then randomly assigns a camo challenge to be completed by every kill.
 There are menu options to update progress, see progress, delete progress, reset all stats, inquire about needed challenges, or quit.
 The program can also save the data to a binary file so that when started, it can load progress from previous games.
+
+A spreadsheet containing the specific requirements for guns is found at https://docs.google.com/spreadsheets/d/1RApSn5K1Uc0kP94EitqLTcjFaF3NRA6ADOqIkUUZ8Bw/edit#gid=0
+but this project only tracks information related to the Assault rifle and submachine gun categories.
