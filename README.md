@@ -1,5 +1,5 @@
 # Cod-Camo-Progress-Tracker
-This Project was completed in CS 1180: Computer Science I at Wright State University.
+This Project was completed in CS 1181: Computer Science II at Wright State University.
 
 This project tracks the progress on completing in game challenges in the 2019 Call of Duty Modern Warfare game.
 
