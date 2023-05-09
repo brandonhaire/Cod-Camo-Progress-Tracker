@@ -140,20 +140,20 @@ public class CS1181HaireProject01 {
         }
 
 //        finish all guns for testing
-//         Kilo141.finish();
-//         FAL.finish();
-//         M4A1.finish();
-//         FR556.finish();
-//         Oden.finish();
-//         M13.finish();
-//         FNScar17.finish();
-//         AK47.finish();
-//         AUG.finish();
-//         P90.finish();
-//         MP5.finish();
-//         Uzi.finish();
-//         MP7.finish();
-//         PP19Bizon.finish();
+        Kilo141.finish();
+        FAL.finish();
+        M4A1.finish();
+        FR556.finish();
+        Oden.finish();
+        M13.finish();
+        FNScar17.finish();
+        AK47.finish();
+        AUG.finish();
+        P90.finish();
+        MP5.finish();
+        Uzi.finish();
+        MP7.finish();
+        PP19Bizon.finish();
         boolean done = false;
         int kills = 0;
         boolean error = true;
@@ -178,7 +178,7 @@ public class CS1181HaireProject01 {
             switch (choice) {
                 case "U":
                     boolean stillUpdating = true;
-                    System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                    System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
                     while (stillUpdating) {
                         System.out.printf("%s\t\t%s\t\t%s\n", "1 = Kilo 141", "2 = FAL", "3 = M4A1");
                         System.out.printf("%s\t\t%s\t%s\n", "4 = FR 5.56", "5 = Oden", "6 = M13");
@@ -922,7 +922,7 @@ public class CS1181HaireProject01 {
                                 break;
                         }
                     }
-                    System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                    System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
                     break;
                 /*
                     Ouputs how many categories are completed for each gun and how close the 
@@ -968,7 +968,7 @@ public class CS1181HaireProject01 {
                     first category and then randomly from the other categories (ends on line 1698)
                  */
                 case "D":
-                    System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                    System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
                     System.out.println("You must be an Infinity Ward employee to delete player progress");
                     System.out.println("Please enter your Infinity Ward Employee ID:");
                     keyboard.next();
@@ -1712,7 +1712,7 @@ public class CS1181HaireProject01 {
                     } while (!(yesNo.equals("YES")) && !(yesNo.equals("NO")));
                     switch (yesNo) {
                         case "YES":
-                            System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                            System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
                             yesNo = "";
                             do {
                                 System.out.println("DUDE THERE'S NO GOING BACK AFTER THIS ARE YOU SURE? (\"YES\" or \"NO\")");
@@ -1720,7 +1720,7 @@ public class CS1181HaireProject01 {
                             } while (!(yesNo.equals("YES")) && !(yesNo.equals("NO")));
                             switch (yesNo) {
                                 case "YES":
-                                    System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                                    System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
                                     Kilo141.reset();
                                     FAL.reset();
                                     M4A1.reset();
@@ -1736,7 +1736,7 @@ public class CS1181HaireProject01 {
                                     PP19Bizon.reset();
                                     MP7.reset();
                                     damascus = false;
-                                    System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                                    System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
                                     System.out.println("Your'e progress has been completely reset");
                                     break;
                             }
@@ -1750,7 +1750,7 @@ public class CS1181HaireProject01 {
                 case "W":
                     boolean stillSearching = true;
                     while (stillSearching) {
-                        System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                        System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
                         String search;
                         System.out.printf("%s\t%s\t%s\n", "Kilo 141", "FAL", "M4A1");
                         System.out.printf("%s\t\t%s\t%s\n", "FR 5.56", "Oden", "M13");
@@ -2016,7 +2016,7 @@ public class CS1181HaireProject01 {
                             System.exit(0);
                             break;
                         case "NO":
-                            System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                            System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
                             break;
                     }
                     break;
@@ -2028,7 +2028,7 @@ public class CS1181HaireProject01 {
             } while (!(yesNo.equals("YES")) && !(yesNo.equals("NO")));
             switch (yesNo) {
                 case "YES":
-                    System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+                    System.out.printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
                     break;
                 case "NO":
                     done = true;
